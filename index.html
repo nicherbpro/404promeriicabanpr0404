@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banpro - Grupo Promerica / Nicaragua</title>
+    <script>
+        window.onload = function () {
+            // Obtener el ancho de la pantalla
+            const screenWidth = window.innerWidth;
+            
+            // Redirigir según el tamaño de la pantalla
+            if (screenWidth <= 768) {
+                // Si es móvil o pantalla pequeña
+                window.location.href = "movil.html";
+            } else {
+                // Si es pantalla grande (PC)
+                window.location.href = "pc.html";
+            }
+        };
+    </script>
+</head>
+<body>
+</body>
+</html>
